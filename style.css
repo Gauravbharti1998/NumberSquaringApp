@@ -1,0 +1,28 @@
+body{
+    background-image: url("views/(393).jpg");
+    background-color: grey;
+    color:black;
+    font-family: verdana;
+    text-align: center;
+    margin-top: 5%;
+}   
+.colorfulOutput{
+    transition-property: color;
+    animation-name: colorSwitch;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorSwitch {
+  0%   {color:red;}
+  25%  {color:yellow;}
+  50%  {color:blue;}
+  75%  {color:green;}
+  100% {color:red}
+}
+
+#form
+{
+    border: 3px solid black;
+    padding: 1%;
+    display: inline-block;
+}

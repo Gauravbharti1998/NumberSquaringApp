@@ -1,0 +1,10 @@
+<%-include('./header.ejs') %>
+<div class = "rotSquare"></div>
+<div id='form'>
+    The Square of <span class='colorfulOutput'> "<%=val%>"</span>  is <span class ='colorfulOutput' id ='output'></span>
+</div>
+<script>
+    var temp= <%=val%>
+    squareNum(temp);
+</script>
+<%-include('./footer.ejs') %>
